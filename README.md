@@ -1,2 +1,2 @@
 # PM-Skills
-Skills Manager is a full-stack application for managing Claude Code custom slash commands (skills)
+PM Skill Manager is a full-stack application designed for product managers to manage custom delimiter commands (skills) in Claude code.
