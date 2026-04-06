@@ -1,0 +1,16 @@
+{
+  "name": "architect-plugin",
+  "version": "0.1.0",
+  "description": "Software architect toolkit for system design, code review, technical decisions, and architecture assessment",
+  "author": {
+    "name": "PM-Skills Team",
+    "email": "pm-skills@example.com"
+  },
+  "keywords": [
+    "architecture",
+    "system-design",
+    "code-review",
+    "technical-decision",
+    "api-design"
+  ]
+}
