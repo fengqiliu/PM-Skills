@@ -6,9 +6,15 @@ Claude Code 技能与 Agent 管理仓库，为产品经理和软件架构师提�
 
 ```
 PM-Skills/
-├── skills/              # PM 技能集（17个）
-├── agents/              # Claude Code Agents（4个）
-├── plugins/             # Claude Code 插件
+├── skills/                      # PM 技能集（17个）+ 专项技能
+│   ├── pm-alpha-*/             # Alpha: 日常工作流（5个）
+│   ├── pm-beta-*/              # Beta: 专项能力（5个）
+│   ├── pm-gamma-*/             # Gamma: 医疗信息化（3个）
+│   ├── pm-delta-*/             # Delta: 协作与成长（4个）
+│   ├── weixin-writer/         # 微信公众号文章写作
+│   └── wechat-mp-writer-skill/ # 旧版微信写作（legacy）
+├── agents/                      # Claude Code Agents（4个）
+├── plugins/                     # Claude Code 插件
 └── PACS_RIS_PM_Daily_Workflow.md  # PACS/RIS PM 工作流文档
 ```
 
@@ -51,6 +57,12 @@ PM-Skills/
 | `pm-delta-upward-management` | 向上管理 |
 | `pm-delta-career-growth` | 职业成长 |
 
+### 专项技能
+
+| 技能 | 说明 |
+|------|------|
+| `weixin-writer` | 微信公众号文章写作（包含内容方法论） |
+
 ## Agents（助手）
 
 | Agent | 说明 |
@@ -82,6 +94,9 @@ PM-Skills/
 
 # Skills
 /architecture-design, /code-review, /pm-alpha-requirement-analysis, etc.
+
+# 微信文章写作
+/weixin-writer
 ```
 
 ## 贡献
@@ -91,6 +106,7 @@ PM-Skills/
 1. 在对应目录下创建文件
 2. 遵循现有格式（YAML frontmatter + 内容）
 3. 包含 `_meta.json` 元数据文件
+4. 可选：添加 `references/` 子目录存放参考资料
 
 ## 相关文档
 
